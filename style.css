@@ -1,0 +1,71 @@
+/*styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 32px;
+  }
+  
+  .search-section {
+    text-align: center;
+  }
+  
+  #search-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  .container2 {
+    max-width: 900px;
+   margin-left: 32%;
+    padding: 30px;
+    color: red;
+  }
+  /* Set the background image for the .background-section class */
+.background {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/925/284/original/luxury-3d-background-sales-offer-discount-grand-prize-for-marketing-product-vector.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full viewport height */
+}
